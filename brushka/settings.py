@@ -14,6 +14,15 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.mail.ru'
+EMAIL_HOST_USER = 'pashasaley@mail.ru'
+EMAIL_HOST_PASSWORD = 'futyn007'
+EMAIL_PORT = 587
+EMAIL_USE_SSL = False
 
 
 # Quick-start development settings - unsuitable for production

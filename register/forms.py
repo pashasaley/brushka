@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User
 from django import forms
 from django.core.exceptions import ValidationError
+from register import models
 
 
 class CustomUserCreationForm(forms.Form):
@@ -32,10 +33,18 @@ class CustomUserCreationForm(forms.Form):
 
         return password2
 
-    def save(self, commit=True):
+    def save(self):
         user = User.objects.create_user(
             self.cleaned_data['username'],
             self.cleaned_data['email'],
-            self.cleaned_data['password1']
+            self.cleaned_data['password1'],
         )
         return user
+
+    # def set_mail(self):
+    #     mail = self.cleaned_data["email"]
+    #     return mail
+
+
+class ActivateForm(forms.Form):
+    activate_key = forms.IntegerField(label="Enter your activate from your mail:")
