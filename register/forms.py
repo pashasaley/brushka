@@ -1,7 +1,6 @@
-from django.contrib.auth.models import User
+from register.models import Users
 from django import forms
 from django.core.exceptions import ValidationError
-from register import models
 
 
 class CustomUserCreationForm(forms.Form):
@@ -12,14 +11,14 @@ class CustomUserCreationForm(forms.Form):
 
     def clean_username(self):
         username = self.cleaned_data['username'].lower()
-        r = User.objects.filter(username=username)
+        r = Users.objects.filter(username=username)
         if r.count():
             raise ValidationError("Username already exists")
         return username
 
     def clean_email(self):
         email = self.cleaned_data['email'].lower()
-        r = User.objects.filter(email=email)
+        r = Users.objects.filter(email=email)
         if r.count():
             raise ValidationError("Email already exists")
         return email
@@ -33,17 +32,14 @@ class CustomUserCreationForm(forms.Form):
 
         return password2
 
-    def save(self):
-        user = User.objects.create_user(
+    def save(self, key):
+        user = Users.objects.create_user(
             self.cleaned_data['username'],
             self.cleaned_data['email'],
             self.cleaned_data['password1'],
+            key=key
         )
         return user
-
-    # def set_mail(self):
-    #     mail = self.cleaned_data["email"]
-    #     return mail
 
 
 class ActivateForm(forms.Form):
