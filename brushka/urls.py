@@ -18,10 +18,11 @@ from django.urls import path, include
 from register.views import register, activate
 from homepage.views import index
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='home_page_index'),
-    # path('login/', include('login.urls')),
+    path('', include('django.contrib.auth.urls')),
     path('register/', register, name='register'),
     path('register/activate/', activate, name='activate'),
 ]

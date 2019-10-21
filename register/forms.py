@@ -40,7 +40,3 @@ class CustomUserCreationForm(forms.Form):
             key=key
         )
         return user
-
-
-class ActivateForm(forms.Form):
-    activate_key = forms.IntegerField(label="Enter your activate from your mail:")

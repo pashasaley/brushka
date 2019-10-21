@@ -5,6 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-   <h1>Hello {{ form.is_active }}</h1>
+    {% if user.is_authenticated %}
+        <h1>Hello </h1>
+        <a href="{% url 'logout' %}">Log out</a>
+    {% else %}
+        <a href="{% url 'login' %}">Log in</a>
+    {% endif %}
 </body>
 </html>

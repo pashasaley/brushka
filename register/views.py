@@ -11,7 +11,6 @@ from django.http import HttpResponseRedirect
 def register(request):
     if request.method == 'POST':
         f = CustomUserCreationForm(request.POST)
-
         if f.is_valid():
             key = str(random.getrandbits(32))
             f.save(key)

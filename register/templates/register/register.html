@@ -23,14 +23,14 @@
         <div class="form-group">
             {{ form.username.label }}
             <input type="text" class="form-control" name="username">
-            {% if form.errors %}
+            {% if form.username.errors %}
                 <p class="color_errors">Username already exists.</p>
             {% endif %}
         </div>
         <div class="form-group">
             {{ form.email.label }}
             <input type="email" class="form-control" name="email">
-            {% if form.errors %}
+            {% if form.email.errors %}
                 <p class="color_errors">Email already exists.</p>
             {% endif %}
         </div>
@@ -41,7 +41,7 @@
          <div class="form-group">
             {{ form.password2.label }}
             <input type="password" class="form-control" name="password2">
-             {% if form.errors %}
+             {% if form.password2.errors %}
                 <p class="color_errors">Password don't match.</p>
             {% endif %}
         </div>

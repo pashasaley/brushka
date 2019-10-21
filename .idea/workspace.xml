@@ -2,610 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d0d8fb-62f7-407a-b9fd-5cb7bb079123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/lazy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/reference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/tzfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/tzinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Curacao" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Danmarkshavn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Dawson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Dawson_Creek" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Denver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Detroit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Dominica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Edmonton" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Eirunepe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/El_Salvador" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Ensenada" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Fort_Nelson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Fort_Wayne" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Fortaleza" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Glace_Bay" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Godthab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Goose_Bay" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Grand_Turk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Grenada" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Guadeloupe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Guatemala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Guayaquil" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Guyana" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Halifax" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Havana" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Hermosillo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Indianapolis" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Inuvik" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Iqaluit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Jamaica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Jujuy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Juneau" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Knox_IN" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Kralendijk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/La_Paz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Lima" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Los_Angeles" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Louisville" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Lower_Princes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Maceio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Managua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Manaus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Marigot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Martinique" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Matamoros" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Mazatlan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Mendoza" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Menominee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Merida" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Metlakatla" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Mexico_City" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Miquelon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Moncton" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Monterrey" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Montevideo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Montreal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Montserrat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Nassau" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/New_York" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Nipigon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Nome" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Noronha" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Ojinaga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Panama" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Pangnirtung" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Paramaribo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Phoenix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Port-au-Prince" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Port_of_Spain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Porto_Acre" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Porto_Velho" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Puerto_Rico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Punta_Arenas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Rainy_River" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Rankin_Inlet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Recife" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Regina" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Resolute" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Rio_Branco" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Rosario" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Santa_Isabel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Santarem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Santiago" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Santo_Domingo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Sao_Paulo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Scoresbysund" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Shiprock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Sitka" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/St_Barthelemy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/St_Johns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/St_Kitts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/St_Lucia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/St_Thomas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/St_Vincent" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Swift_Current" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Tegucigalpa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Thule" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Thunder_Bay" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Tijuana" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Toronto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Tortola" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Vancouver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Virgin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Whitehorse" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Winnipeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Yakutat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/America/Yellowknife" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Casey" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Davis" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/DumontDUrville" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Macquarie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Mawson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/McMurdo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Palmer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Rothera" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/South_Pole" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Syowa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Troll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Antarctica/Vostok" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Arctic/Longyearbyen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Aden" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Almaty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Amman" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Anadyr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Aqtau" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Aqtobe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Ashgabat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Ashkhabad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Atyrau" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Baghdad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Bahrain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Baku" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Bangkok" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Barnaul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Beirut" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Bishkek" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Brunei" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Calcutta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Chita" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Choibalsan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Chongqing" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Chungking" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Colombo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Dacca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Damascus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Dhaka" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Dili" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Dubai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Dushanbe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Famagusta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Gaza" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Harbin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Hebron" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Ho_Chi_Minh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Hong_Kong" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Hovd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Irkutsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Istanbul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Jakarta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Jayapura" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Jerusalem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Kabul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Kamchatka" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Karachi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Kashgar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Kathmandu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Katmandu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Khandyga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Kolkata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Krasnoyarsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Kuala_Lumpur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Kuching" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Kuwait" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Macao" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Macau" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Magadan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Makassar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Manila" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Muscat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Nicosia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Novokuznetsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Novosibirsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Omsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Oral" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Phnom_Penh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Pontianak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Pyongyang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Qatar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Qostanay" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Qyzylorda" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Rangoon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Riyadh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Saigon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Sakhalin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Samarkand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Seoul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Shanghai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Singapore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Srednekolymsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Taipei" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tashkent" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tbilisi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tehran" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tel_Aviv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Thimbu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Thimphu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tokyo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Tomsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Ujung_Pandang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Ulaanbaatar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Ulan_Bator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Urumqi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Ust-Nera" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Vientiane" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Vladivostok" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Yakutsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Yangon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Yekaterinburg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Asia/Yerevan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Azores" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Bermuda" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Canary" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Cape_Verde" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Faeroe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Faroe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Jan_Mayen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Madeira" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Reykjavik" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/South_Georgia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/St_Helena" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Atlantic/Stanley" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/ACT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Adelaide" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Brisbane" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Broken_Hill" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Canberra" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Currie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Darwin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Eucla" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Hobart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/LHI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Lindeman" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Lord_Howe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Melbourne" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/NSW" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/North" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Perth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Queensland" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/South" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Sydney" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Tasmania" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Victoria" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/West" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Australia/Yancowinna" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Brazil/Acre" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Brazil/DeNoronha" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Brazil/East" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Brazil/West" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/CET" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/CST6CDT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Canada/Atlantic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Canada/Central" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Canada/Eastern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Canada/Mountain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Canada/Newfoundland" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Canada/Pacific" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Canada/Saskatchewan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Canada/Yukon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Chile/Continental" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Chile/EasterIsland" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Cuba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/EET" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/EST" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/EST5EDT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Egypt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Eire" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT+9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT-9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/GMT0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/Greenwich" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/UCT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/UTC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/Universal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Etc/Zulu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Amsterdam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Andorra" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Astrakhan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Athens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Belfast" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Belgrade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Berlin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Bratislava" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Brussels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Bucharest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Budapest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Busingen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Chisinau" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Copenhagen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Dublin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Gibraltar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Guernsey" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Helsinki" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Isle_of_Man" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Istanbul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Jersey" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Kaliningrad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Kiev" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Kirov" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Lisbon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Ljubljana" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/London" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Luxembourg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Madrid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Malta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Mariehamn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Minsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Monaco" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Moscow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Nicosia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Oslo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Paris" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Podgorica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Prague" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Riga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Rome" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Samara" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/San_Marino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Sarajevo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Saratov" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Simferopol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Skopje" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Sofia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Stockholm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Tallinn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Tirane" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Tiraspol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Ulyanovsk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Uzhgorod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Vaduz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Vatican" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Vienna" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Vilnius" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Volgograd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Warsaw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Zagreb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Zaporozhye" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Europe/Zurich" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Factory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/GB" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/GB-Eire" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/GMT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/GMT+0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/GMT-0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/GMT0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Greenwich" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/HST" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Hongkong" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Iceland" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Antananarivo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Chagos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Christmas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Cocos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Comoro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Kerguelen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Mahe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Maldives" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Mauritius" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Mayotte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Indian/Reunion" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Iran" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Israel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Jamaica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Japan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Kwajalein" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Libya" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/MET" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/MST" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/MST7MDT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Mexico/BajaNorte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Mexico/BajaSur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Mexico/General" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/NZ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/NZ-CHAT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Navajo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/PRC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/PST8PDT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Apia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Auckland" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Bougainville" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Chatham" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Chuuk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Easter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Efate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Enderbury" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Fakaofo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Fiji" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Funafuti" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Galapagos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Gambier" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Guadalcanal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Guam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Honolulu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Johnston" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Kiritimati" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Kosrae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Kwajalein" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Majuro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Marquesas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Midway" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Nauru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Niue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Norfolk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Noumea" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Pago_Pago" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Palau" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Pitcairn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Pohnpei" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Ponape" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Port_Moresby" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Rarotonga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Saipan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Samoa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Tahiti" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Tarawa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Tongatapu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Truk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Wake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Wallis" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Pacific/Yap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Poland" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Portugal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/ROC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/ROK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Singapore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Turkey" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/UCT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Alaska" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Aleutian" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Arizona" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Central" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/East-Indiana" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Eastern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Hawaii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Indiana-Starke" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Michigan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Mountain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Pacific" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/US/Samoa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/UTC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Universal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/W-SU" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/WET" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/Zulu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/iso3166.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/leapseconds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/posixrules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/tzdata.zi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz/zoneinfo/zone1970.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.7.egg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.0.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/engine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/engine/filter_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/engine/grouping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/engine/statement_splitter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/filters/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/filters/aligned_indent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/filters/others.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/filters/output.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/filters/reindent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/filters/right_margin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/filters/tokens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/formatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/keywords.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/lexer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/tokens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_contextvars.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_distutils_findvs.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_queue.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/libcrypto-1_1-x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/libssl-1_1-x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip-script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python37.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/select.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/brushka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/brushka.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139/storage_v2/_src_/database/brushka.EL5RCQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139/storage_v2/_src_/database/brushka.EL5RCQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/11b559b2-9787-4367-bc82-27444bc237b6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/11b559b2-9787-4367-bc82-27444bc237b6/storage_v2/_src_/database/tshirts.sSp7wg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/11b559b2-9787-4367-bc82-27444bc237b6/storage_v2/_src_/database/tshirts.sSp7wg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8c2e8a7-6df5-4872-bafd-9bea8c268c3f.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8c2e8a7-6df5-4872-bafd-9bea8c268c3f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b8c2e8a7-6df5-4872-bafd-9bea8c268c3f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brushka/email_info.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/brushka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/brushka/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brushka/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/brushka/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brushka/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/brushka/wsgi.py" afterDir="false" />
@@ -614,23 +19,24 @@
       <change beforePath="$PROJECT_DIR$/homepage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage/templates/home_page/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/home_page/home_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/migrations/0002_user_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/migrations/0002_user_address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/templates/register/activate.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/activate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/templates/register/activate.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/register/templates/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/INSTALLER" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/LICENSE" afterDir="false" />
@@ -643,6 +49,7 @@
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/__main__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/shortcuts.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/shortcuts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/PKG-INFO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/not-zip-safe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/not-zip-safe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/__init__.py" afterDir="false" />
@@ -922,6 +329,20 @@
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/mklabels.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/mklabels.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/x_user_defined.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2019.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -980,16 +401,6 @@
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="brushka@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="brushka: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="register_users: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
     </expand>
     <select />
   </component>
@@ -1009,40 +420,42 @@
         <counts>
           <entry key="Django Console" value="40" />
           <entry key="cell" value="2" />
-          <entry key="html" value="553" />
-          <entry key="py" value="3889" />
-          <entry key="txt" value="45" />
+          <entry key="html" value="962" />
+          <entry key="py" value="6268" />
+          <entry key="txt" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="553" />
-          <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="3929" />
+          <entry key="HTML" value="962" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Python" value="6308" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="auth_user" value="11" />
+          <entry key="auth_user" value="15" />
           <entry key="auth_user_pkey" value="1" />
           <entry key="auth_user_username_key" value="1" />
+          <entry key="django_admin_log" value="1" />
           <entry key="django_content_type" value="1" />
           <entry key="django_migrations" value="3" />
-          <entry key="html" value="4" />
+          <entry key="django_session" value="1" />
+          <entry key="html" value="19" />
           <entry key="public" value="2" />
-          <entry key="py" value="33" />
+          <entry key="py" value="58" />
           <entry key="register_myuser" value="1" />
           <entry key="register_user" value="4" />
-          <entry key="register_users" value="7" />
+          <entry key="register_users" value="8" />
           <entry key="sql" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="27" />
-          <entry key="HTML" value="4" />
-          <entry key="Python" value="33" />
+          <entry key="Database Element" value="34" />
+          <entry key="HTML" value="19" />
+          <entry key="Python" value="58" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="3" />
           <entry key="UML" value="2" />
@@ -1055,21 +468,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homepage/templates/home_page/home_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="187">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="204">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1571503009762" expanded="true" signature="996:1248" ph="..." />
+                <marker date="1571678026361" expanded="true" signature="995:1247" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register/templates/register/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -1077,26 +508,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
-                <marker date="1571503009378" expanded="true" signature="1500:1505" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/auth_user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brushka/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="e#631#663#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register/models.py">
+        <entry file="file://$PROJECT_DIR$/homepage/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <marker date="1571502272882" expanded="true" signature="121:122" ph="..." />
-                <marker date="1571502272882" expanded="true" signature="316:361" ph="..." />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -1114,6 +560,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>e</find>
+      <find>as_view</find>
+      <find>logout</find>
+      <find>is_bound</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1124,18 +573,22 @@
       <list>
         <option value="$PROJECT_DIR$/login/urls.py" />
         <option value="$PROJECT_DIR$/brushka/email_info.py" />
-        <option value="$PROJECT_DIR$/homepage/views.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/models.py" />
-        <option value="$PROJECT_DIR$/register/templates/register/register.html" />
         <option value="$PROJECT_DIR$/register/templates/register/activate.html" />
-        <option value="$PROJECT_DIR$/brushka/settings.py" />
         <option value="$PROJECT_DIR$/register/urls.py" />
-        <option value="$PROJECT_DIR$/brushka/urls.py" />
         <option value="$PROJECT_DIR$/register/models.py" />
-        <option value="$PROJECT_DIR$/homepage/templates/home_page/home_page.html" />
         <option value="$PROJECT_DIR$/homepage/urls.py" />
-        <option value="$PROJECT_DIR$/register/forms.py" />
+        <option value="$PROJECT_DIR$/login/forms.py" />
+        <option value="$PROJECT_DIR$/brushka/settings.py" />
         <option value="$PROJECT_DIR$/register/views.py" />
+        <option value="$PROJECT_DIR$/register/templates/register/register.html" />
+        <option value="$PROJECT_DIR$/register/forms.py" />
+        <option value="$PROJECT_DIR$/login/views.py" />
+        <option value="$PROJECT_DIR$/homepage/templates/home_page/home_page.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/homepage/views.py" />
+        <option value="$PROJECT_DIR$/brushka/urls.py" />
       </list>
     </option>
   </component>
@@ -1184,6 +637,24 @@
               <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
               <item name="brushka" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brushka" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brushka" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brushka" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1195,13 +666,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tshirts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\django\brushka\templates\registration" />
+      <recent name="D:\python\django\brushka\register\templates\register" />
       <recent name="D:\python\django\brushka\homepage" />
       <recent name="D:\python\django\brushka\login" />
       <recent name="D:\python\django\brushka\register" />
@@ -1262,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571324051802</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Activate user">
+      <created>1571503101090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571503101091</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1278,7 +758,31 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15431164" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15355521" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28196722" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.20045386" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15431164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1299,31 +803,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.20045386" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.24918033" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" weight="0.3295082" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Console" order="5" weight="0.3295082" />
-      <window_info anchor="bottom" id="Python Console" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.17473525" />
-      <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.20045386" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1334,7 +814,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Authentification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authentification" />
+    <MESSAGE value="Activate user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activate user" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b8c2e8a7-6df5-4872-bafd-9bea8c268c3f/console.sql">
@@ -1347,44 +828,10 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0a2a1370-e6ea-4b6d-8e01-98c7f322c139/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/register_user" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/register_myuser" />
-    <entry file="file://$PROJECT_DIR$/register/templates/register/activate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brushka/email_info.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/templates/register/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="47" column="72" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="72" />
-        </state>
-      </provider>
     </entry>
     <entry file="uml://DATABASE/0a2a1370-e6ea-4b6d-8e01-98c7f322c139.SCHEMA:brushka.public">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -1446,24 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brushka/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/django_migrations">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/templates/home_page/home_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1477,20 +910,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brushka/urls.py">
+    <entry file="file://$PROJECT_DIR$/register/templates/register/activate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/auth_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="425">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -1501,21 +924,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register/forms.py">
+    <entry file="file://$PROJECT_DIR$/login/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/templates/register/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="192" column="52" lean-forward="true" selection-start-line="192" selection-start-column="52" selection-end-line="192" selection-end-column="52" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
-            <marker date="1571503009378" expanded="true" signature="1500:1505" ph="..." />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/django_admin_log">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1513">
+          <caret line="178" column="32" lean-forward="true" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <marker date="1571502272882" expanded="true" signature="121:122" ph="..." />
@@ -1524,14 +984,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/templates/home_page/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brushka/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1123">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/register/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="204">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1571503009762" expanded="true" signature="996:1248" ph="..." />
+            <marker date="1571678026361" expanded="true" signature="995:1247" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="35" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brushka/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/templates/register/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
