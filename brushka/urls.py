@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from register.views import register, activate
-from homepage.views import index
+from home_page.views import index
 
 
 urlpatterns = [
@@ -25,4 +25,5 @@ urlpatterns = [
     path('', include('django.contrib.auth.urls')),
     path('register/', register, name='register'),
     path('register/activate/', activate, name='activate'),
+    path('editor/', include('editor.urls'))
 ]

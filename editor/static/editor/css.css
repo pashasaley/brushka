@@ -1,0 +1,108 @@
+*{
+	font-family: 'Almarai', sans-serif;
+}
+
+
+.marginT50{
+	margin-top: 50px;
+}
+
+body{
+	min-width: 300px;
+}
+
+canvas{
+	width: 500px;
+	height: 500px;
+	border: 1ex red solid;
+}
+
+#Tname{
+	font-weight: 700;
+}
+
+.text{
+	font-size: 0.8em;
+}
+
+#price{
+	font-size: 1.2em;
+	margin-top: 30px;
+	font-weight: 800;
+}
+
+.font700{
+	margin-top: 40px;
+	font-weight: 700;
+}
+
+#line{
+	background-color:black;
+	height: 0.04em;
+}
+
+button{
+	background-color: white;
+	border: 0.15em solid  #bab6b6;
+	font-weight: 700;
+}
+
+.q{
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+button:hover{
+	border: 0.15em solid  black;
+}
+
+.size{
+	font-size: 0.85em;
+	margin-right: 30px;
+	width: 35px;
+	height: 35px;
+}
+
+#add{
+	background-color: black;
+	border-color: black;
+	color: white;
+	width: 150px;
+	height: 40px;
+}
+
+#comment{
+	background-color: black;
+	border-color: black;
+	border-radius: 0px 5px 5px 0px;
+	color: white;
+	width: 150px;
+	height: 40px;
+}
+
+#inputComment{
+	height: 40px;
+}
+
+.input-group{
+	margin-top: 100px;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 0.15em solid #bab6b6;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.custom-file-upload:hover{
+	border: 0.15em solid  black;
+}
+
+#inDescription{
+	width: 400px;
+}

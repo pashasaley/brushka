@@ -2,10 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -21,12 +17,12 @@
       </style>
 </head>
 <body>
-{% if form.errors %}
-    <p>Wrong</p>
-{% endif %}
-{% if next %}
-    <p>HEY</p>
-{% endif %}
+{#{% if form.errors %}#}
+{#    <p>Wrong</p>#}
+{#{% endif %}#}
+{#{% if next %}#}
+{#    <p>HEY</p>#}
+{#{% endif %}#}
     <form class="container" method="post" action="{% url 'login' %}" >
              {% csrf_token %}
         <div class="form-group">
@@ -36,6 +32,10 @@
         <div class="form-group">
             {{ form.password.label }}
             <input type="password" class="form-control" name="password">
+            {% if form.errors %}
+                <p class="color_errors">Wrong name or password.
+                    You may not have verified your account. </p>
+            {% endif %}
         </div>
         <input type="submit" class="btn btn-primary" value="Сохранить" >
         <input type="hidden" name="next" value="{{ next }}">

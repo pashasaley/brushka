@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d0d8fb-62f7-407a-b9fd-5cb7bb079123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/static/editor/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_page/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/brushka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/brushka.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139.xml" afterDir="false" />
@@ -14,30 +18,23 @@
       <change beforePath="$PROJECT_DIR$/brushka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/brushka/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brushka/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/brushka/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brushka/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/brushka/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/home_page/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/templates/home_page/home_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/editor/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_page/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_page/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_page/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_page/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/home_page/home_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_page/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_page/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/migrations/0002_user_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/migrations/0002_user_address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/templates/register/activate.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/register/templates/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/INSTALLER" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.6.dist-info/METADATA" afterDir="false" />
@@ -412,24 +409,27 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.135" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="40" />
           <entry key="cell" value="2" />
-          <entry key="html" value="962" />
-          <entry key="py" value="6268" />
+          <entry key="css" value="32" />
+          <entry key="html" value="1584" />
+          <entry key="py" value="6396" />
           <entry key="txt" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="962" />
+          <entry key="CSS" value="32" />
+          <entry key="HTML" value="1584" />
           <entry key="PLAIN_TEXT" value="58" />
-          <entry key="Python" value="6308" />
+          <entry key="Python" value="6436" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
@@ -438,13 +438,14 @@
           <entry key="auth_user" value="15" />
           <entry key="auth_user_pkey" value="1" />
           <entry key="auth_user_username_key" value="1" />
+          <entry key="css" value="9" />
           <entry key="django_admin_log" value="1" />
           <entry key="django_content_type" value="1" />
           <entry key="django_migrations" value="3" />
           <entry key="django_session" value="1" />
-          <entry key="html" value="19" />
+          <entry key="html" value="23" />
           <entry key="public" value="2" />
-          <entry key="py" value="58" />
+          <entry key="py" value="68" />
           <entry key="register_myuser" value="1" />
           <entry key="register_user" value="4" />
           <entry key="register_users" value="8" />
@@ -453,9 +454,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSS" value="9" />
           <entry key="Database Element" value="34" />
-          <entry key="HTML" value="19" />
-          <entry key="Python" value="58" />
+          <entry key="HTML" value="23" />
+          <entry key="Python" value="68" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="3" />
           <entry key="UML" value="2" />
@@ -466,62 +468,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homepage/templates/home_page/home_page.html">
+        <entry file="file://$PROJECT_DIR$/editor/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="68">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1571678026361" expanded="true" signature="995:1247" ph="..." />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register/templates/register/register.html">
+        <entry file="file://$PROJECT_DIR$/editor/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="68">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <marker date="1571749638150" expanded="true" signature="57:100" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/auth_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/templates/editor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-884">
+              <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editor/static/editor/css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brushka/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="141" column="15" lean-forward="true" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -529,20 +530,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brushka/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="175">
+              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-end-line="21" selection-end-column="15" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homepage/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -563,6 +555,7 @@
       <find>as_view</find>
       <find>logout</find>
       <find>is_bound</find>
+      <find>red</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -579,16 +572,25 @@
         <option value="$PROJECT_DIR$/register/models.py" />
         <option value="$PROJECT_DIR$/homepage/urls.py" />
         <option value="$PROJECT_DIR$/login/forms.py" />
-        <option value="$PROJECT_DIR$/brushka/settings.py" />
         <option value="$PROJECT_DIR$/register/views.py" />
-        <option value="$PROJECT_DIR$/register/templates/register/register.html" />
         <option value="$PROJECT_DIR$/register/forms.py" />
         <option value="$PROJECT_DIR$/login/views.py" />
-        <option value="$PROJECT_DIR$/homepage/templates/home_page/home_page.html" />
         <option value="$PROJECT_DIR$/login/templates/login/login.html" />
-        <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/homepage/views.py" />
+        <option value="$PROJECT_DIR$/register/templates/register/register.html" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/homepage/templates/home_page/bootstrap.css" />
+        <option value="$PROJECT_DIR$/homepage/templates/home_page/home_page.html" />
+        <option value="$PROJECT_DIR$/home_page/templates/home_page/home_page.html" />
+        <option value="$PROJECT_DIR$/templates/home_page.html" />
+        <option value="$PROJECT_DIR$/home_page/views.py" />
         <option value="$PROJECT_DIR$/brushka/urls.py" />
+        <option value="$PROJECT_DIR$/brushka/settings.py" />
+        <option value="$PROJECT_DIR$/editor/views.py" />
+        <option value="$PROJECT_DIR$/editor/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/editor.html" />
+        <option value="$PROJECT_DIR$/editor/static/editor/css.css" />
       </list>
     </option>
   </component>
@@ -629,7 +631,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -637,28 +638,11 @@
               <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
               <item name="brushka" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brushka" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brushka" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brushka" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -672,12 +656,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\django\brushka\brushka\static\brushka" />
+      <recent name="D:\python\django\brushka\brushka\static" />
+      <recent name="D:\python\django\brushka\home_page\static\home_page" />
+      <recent name="D:\python\django\brushka\homepage\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\python\django\brushka\templates\registration" />
-      <recent name="D:\python\django\brushka\register\templates\register" />
-      <recent name="D:\python\django\brushka\homepage" />
-      <recent name="D:\python\django\brushka\login" />
-      <recent name="D:\python\django\brushka\register" />
+      <recent name="D:\python\django\brushka\editor\static\editor" />
+      <recent name="D:\python\django\brushka\home_page\static\home_page" />
+      <recent name="D:\python\django\brushka\templates\static" />
+      <recent name="D:\python\django\brushka\static" />
+      <recent name="D:\python\django\brushka\homepage\templates\home_page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -755,10 +745,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15355521" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15582451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -830,9 +820,7 @@
     </entry>
     <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/register_user" />
     <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/register_myuser" />
-    <entry file="file://$PROJECT_DIR$/brushka/email_info.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/brushka/email_info.py" />
     <entry file="uml://DATABASE/0a2a1370-e6ea-4b6d-8e01-98c7f322c139.SCHEMA:brushka.public">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -853,12 +841,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.8717416378316031" x="583.7730557688838" y="496.587853929611" />
+          <settings layout="Hierarchic Group" zoom="0.8717416378316031" x="584.0" y="497.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -900,23 +889,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/templates/register/activate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/urls.py" />
+    <entry file="file://$PROJECT_DIR$/register/urls.py" />
+    <entry file="file://$PROJECT_DIR$/register/templates/register/activate.html" />
     <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/register_users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -924,23 +899,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/templates/register/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/login/urls.py" />
+    <entry file="file://$PROJECT_DIR$/register/templates/register/login.html" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="192" column="52" lean-forward="true" selection-start-line="192" selection-start-column="52" selection-end-line="192" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,13 +919,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -984,32 +941,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/templates/home_page/home_page.html">
+    <entry file="file://$PROJECT_DIR$/login/views.py" />
+    <entry file="file://$PROJECT_DIR$/login/forms.py" />
+    <entry file="file://$PROJECT_DIR$/login/templates/login/login.html" />
+    <entry file="file://$PROJECT_DIR$/register/templates/register/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/views.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        <state relative-caret-position="-1207">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#249#286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brushka/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1123">
-          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+    <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/forms.py">
+    <entry file="file://$PROJECT_DIR$/homepage/templates/home_page/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_page/templates/home_page/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52153">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_page/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1022,58 +1023,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/login.html">
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="35" selection-end-column="72" />
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+    <entry file="file://$PROJECT_DIR$/templates/home_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brushka/static/brushka/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_page/static/home_page/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brushka/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="175">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-end-line="21" selection-end-column="15" />
           <folding>
             <element signature="e#631#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/views.py">
+    <entry file="file://$PROJECT_DIR$/brushka/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="271">
+          <caret line="141" column="15" lean-forward="true" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register/forms.py">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="68">
+          <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/static/editor/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <marker date="1571749638150" expanded="true" signature="57:100" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register/templates/register/register.html">
+    <entry file="file://$PROJECT_DIR$/templates/editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0a2a1370-e6ea-4b6d-8e01-98c7f322c139/database/brushka/schema/public/table/auth_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="-884">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
         </state>
       </provider>
     </entry>

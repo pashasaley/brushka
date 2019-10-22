@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+
+{% block title %}T-shirts editor{% endblock %}
+
+{% block style %}
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css?family=Almarai:700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'editor/css.css' %}" type="text/css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.4.0/fabric.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container marginT50">
+        <div class="row">
+            <div class="col-sm">
+              <canvas id="canvas" width="500px" height="500px"  ></canvas>
+            </div>
+            <div class="col-sm">
+                <div class="container">
+                    <h2 id="Tname">T-Shirts name:</h2><input type="text" name="" id="inName">
+                    <p id="price">Price:</p><input type="text" name="" id="inPrice">
+                    <p class="font700">Description:</p>
+                    <input type="text" name="" id="inDescription">
+                    <hr id="line">
+                    <div class="container">
+                        <div class="row">
+                            <div class=".col-3 q">
+                                <p class="">Color object:   <input type="color" class="" id="favcolor"></p>
+                            </div>
+                            <div class=".col-3 q">
+                                <p class="">T-color: <input type="color" class="" id="tcolor"></p>
+                            </div>
+                            <div class=".col-3 q">
+                                <label class="custom-file-upload">
+                                    <input type="file" id="file" />
+                                    <i class="fa fa-cloud-upload"></i>Upload File
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class=".col-3 q">
+                                <button class="" onclick="save()">Save</button>
+                            </div>
+                            <div class=".col-3 q">
+                                <button class="" onclick="f()">Delete selected object</button>
+                            </div>
+                            <div class=".col-3 q">
+                                <button class="" onclick="text()">Add text</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="add" class="font700">Add to Bag</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr id="line">
+    </div>
+    <div class="container">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="inputComment">
+            <div class="input-group-append">
+                <button id="comment" class="">Button</button>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+    var canvas = new fabric.Canvas('canvas');
+    document.getElementById('file').addEventListener("change", function (e) {
+        var file = e.target.files[0];
+        var reader = new FileReader();
+        reader.onload = function (f) {
+            var data = f.target.result;
+            fabric.Image.fromURL(data, function (img) {
+                var oImg = img.set({left: 0, top: 0, angle: 0, opacity: 0.85}).scale(0.9);
+                canvas.add(oImg).renderAll();
+                var a = canvas.setActiveObject(oImg);
+                var dataURL = canvas.toDataURL({format: 'png', quality: 0.8});
+            });
+        };
+        reader.readAsDataURL(file);
+    });
+
+canvas.setBackgroundImage('https://res.cloudinary.com/itr/image/upload/v1555868664/white_zkntjk.png', canvas.renderAll.bind(canvas));
+canvas.setOverlayImage('https://res.cloudinary.com/itr/image/upload/v1555868663/fon_qkezpa.png', canvas.renderAll.bind(canvas));
+
+var inp=document.querySelector("#file")
+    inp.value="";
+    function text(){
+        var textbox = new fabric.Textbox('This is a Textbox', {
+            left: 250,
+            top: 250,
+            fill: '#000',
+            strokeWidth: 2,
+            opacity: 0.85,
+            stroke: "#000"
+        });
+        canvas.add(textbox);
+    }
+    function f(){
+        var activeObject = canvas.getActiveObject();
+        canvas.remove(activeObject);
+    }
+    var red = new fabric.Rect({
+        top: 0,
+        left: 0,
+        width: 500,
+        height: 500,
+        opacity: 0.70,
+        fill: 'white' });
+    canvas.add(red);
+    canvas.item(0).selectable = false;
+
+
+    var tscolor = document.getElementById("tcolor");
+    var theInput = document.getElementById("favcolor");
+    tscolor.addEventListener("input", function() {
+        var theColor = tscolor.value;
+        var activeObject = canvas.getActiveObject();
+        var d=canvas.item(0);
+        d.set({
+            fill: theColor,
+            stroke:theColor
+        });
+        canvas.renderAll();
+    }, true);
+    theInput.addEventListener("input", function() {
+        var theColor = theInput.value;
+        var activeObject = canvas.getActiveObject();
+        activeObject.set({
+            fill: theColor,
+            stroke:theColor
+        });
+        canvas.renderAll();
+    }, true);
+
+
+    function save(){
+        console.log(canvas.toSVG())
+    }
+</script>
+{% endblock %}
