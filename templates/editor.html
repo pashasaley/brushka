@@ -10,6 +10,7 @@
 {% endblock %}
 
 {% block content %}
+
 <div class="container marginT50">
         <div class="row">
             <div class="col-sm">
@@ -17,29 +18,25 @@
             </div>
             <div class="col-sm">
                 <div class="container">
-                    <h2 id="Tname">T-Shirts name:</h2><input type="text" name="" id="inName">
-                    <p id="price">Price:</p><input type="text" name="" id="inPrice">
-                    <p class="font700">Description:</p>
-                    <input type="text" name="" id="inDescription">
+                    <form method="post">
+                        {% csrf_token %}
+                        <h2 id="Tname">T-Shirts name:</h2>
+                        <input type="text" name="name" id="inName">
+                        <p id="price">Price:</p>
+                        <input type="text" name="price_t" id="inPrice">
+                        <p class="font700">Description:</p>
+                        <input type="text" name="description_t" id="inDescription">
+                        <button id="add" onclick="save()" class="font700">Save</button>
+                        <input type="hidden" id="url_pict" name="url">
+                    </form>
                     <hr id="line">
                     <div class="container">
                         <div class="row">
-                            <div class=".col-3 q">
-                                <p class="">Color object:   <input type="color" class="" id="favcolor"></p>
-                            </div>
-                            <div class=".col-3 q">
-                                <p class="">T-color: <input type="color" class="" id="tcolor"></p>
-                            </div>
                             <div class=".col-3 q">
                                 <label class="custom-file-upload">
                                     <input type="file" id="file" />
                                     <i class="fa fa-cloud-upload"></i>Upload File
                                 </label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class=".col-3 q">
-                                <button class="" onclick="save()">Save</button>
                             </div>
                             <div class=".col-3 q">
                                 <button class="" onclick="f()">Delete selected object</button>
@@ -48,8 +45,17 @@
                                 <button class="" onclick="text()">Add text</button>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class=".col-3 q">
+                                <p class="">Color object:   <input type="color" class="" id="favcolor"></p>
+                            </div>
+                            <div class=".col-3 q">
+                                <p class="">T-color: <input type="color" class="j" id="tcolor"></p>
+                            </div>
+                        </div>
+
                     </div>
-                    <button id="add" class="font700">Add to Bag</button>
+
                 </div>
             </div>
         </div>
@@ -66,8 +72,6 @@
             </div>
     </div>
     </div>
-</body>
-</html>
 
 
 
@@ -143,7 +147,7 @@ var inp=document.querySelector("#file")
 
 
     function save(){
-        console.log(canvas.toSVG())
+         document.getElementById('url_pict').value = canvas.toSVG();
     }
 </script>
 {% endblock %}

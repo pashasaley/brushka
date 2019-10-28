@@ -25,5 +25,6 @@ urlpatterns = [
     path('', include('django.contrib.auth.urls')),
     path('register/', register, name='register'),
     path('register/activate/', activate, name='activate'),
-    path('editor/', include('editor.urls'))
+    path('editor/', include('editor.urls')),
+    path('sales/', include('sales.urls'))
 ]
