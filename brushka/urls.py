@@ -16,12 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from register.views import register, activate
-from home_page.views import index
+from editor.models import TShirts
+from django.views.generic import ListView
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name='home_page_index'),
+    path('', ListView.as_view(queryset=TShirts.objects.all().order_by('-id')[:9], template_name='home_page.html')),
     path('', include('django.contrib.auth.urls')),
     path('register/', register, name='register'),
     path('register/activate/', activate, name='activate'),

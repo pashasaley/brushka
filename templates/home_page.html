@@ -2,6 +2,38 @@
 
 {% block title %}Brushka{% endblock %}
 
+{% block style %}
+    <style>
+        p.clip{
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 5px;
+            text-overflow: ellipsis;
+        }
+    .q{
+        margin-left: 40px;
+        margin-top: 10px;
+}
+    </style>
+{% endblock %}
+
 {% block content %}
-    <h1>Hi</h1>
+    <div class="container">
+    <div class="row">
+
+    {% for post in object_list %}
+        <div class=".col-4 mt-4 sm q">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ post.link_TShirts }}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{ post.name_TShirts }}</h5>
+                <p class="card-text clip">{{ post.description }}</p>
+                <a href="/sales/{{ post.id }}" class="btn btn-primary">View</a>
+            </div>
+        </div>
+</div>
+    {% endfor %}
+
+    </div>
+    </div>
 {% endblock %}

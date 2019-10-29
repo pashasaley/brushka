@@ -1,3 +1,59 @@
 {% extends 'base.html' %}
 
 {% block title %}Sales{% endblock %}
+
+{% block style %}
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css?family=Almarai:700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'editor/css.css' %}" type="text/css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.4.0/fabric.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container marginT50">
+    <div class="row">
+        <div class="col-sm">
+          <img src="{{ tshirts.link_TShirts }}">
+        </div>
+        <div class="col-sm">
+            <div class="container">
+                <h2 id="Tname">{{ tshirts.name_TShirts }}</h2>
+                <p class="text">{{ tshirts.username }}</p>
+                <p id="price">${{ tshirts.price }}</p>
+                <p class="font700">Description</p>
+                <p class="text">{{ tshirts.description }}</p>
+                <hr id="line">
+                <p class="font700">size</p>
+                <div class="container">
+                    <div class="row">
+                        <div class=".col-3">
+                            <button class="size">XS</button>
+                        </div>
+                        <div class=".col-3">
+                            <button class="size">S</button>
+                        </div>
+                        <div class=".col-3">
+                            <button class="size">M</button>
+                        </div>
+                        <div class=".col-3">
+                            <button class="size">L</button>
+                        </div>
+                    </div>
+                </div>
+                <button id="add" class="font700">Add to Bag</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+
+</div>
+<div class="container">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="inputComment">
+        <div class="input-group-append">
+            <button id="comment" class="">Button</button>
+        </div>
+</div>
+</div>
+{% endblock %}

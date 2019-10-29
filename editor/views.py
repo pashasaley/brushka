@@ -22,7 +22,7 @@ def index(request):
         my_file.close()
         y = cloudinary.uploader.upload_image('d:/image_tshirts/' + x + '.svg')
         y = str(y)
-        tshirts.link_TShirts = 'https://res.cloudinary.com/danzp4kma/image/upload/v1572271002/' + y + '.svg'
+        tshirts.link_TShirts = 'https://res.cloudinary.com/danzp4kma/image/upload/v1572271002/' + y + '.jpeg'
         tshirts.save()
         return redirect('editor_index')
     else:
