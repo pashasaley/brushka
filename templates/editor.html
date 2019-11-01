@@ -53,9 +53,26 @@
                                 <p class="">T-color: <input type="color" class="j" id="tcolor"></p>
                             </div>
                         </div>
-
+                        <div class="row">
+                            <div class=".col-4 q">
+                                <div class="btn-group btn-group-toggle">
+                                    <input type="button" onclick="" class="btn btn-dark" id="b_w" value="b/w">
+                                    <input type="button" onclick="" class="btn btn-dark" id="sepia" value="sepia">
+                                    <input type="button" onclick="" class="btn btn-dark" id="poster" value="posterization">
+                                </div>
+                            </div>
+                            <div class=".col-3 q">
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-dark active">
+                                        <input type="radio" name="man" id="option1" onchange="check()" > Man
+                                    </label>
+                                    <label class="btn btn-dark">
+                                        <input type="radio" name="man" id="option2" onchange="check()" > Woman
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -70,7 +87,7 @@
             <div class="input-group-append">
                 <button id="comment" class="">Button</button>
             </div>
-    </div>
+        </div>
     </div>
 
 
@@ -92,8 +109,21 @@
         reader.readAsDataURL(file);
     });
 
-canvas.setBackgroundImage('https://res.cloudinary.com/itr/image/upload/v1555868664/white_zkntjk.png', canvas.renderAll.bind(canvas));
-canvas.setOverlayImage('https://res.cloudinary.com/itr/image/upload/v1555868663/fon_qkezpa.png', canvas.renderAll.bind(canvas));
+    canvas.setBackgroundImage('https://res.cloudinary.com/itr/image/upload/v1555868664/white_zkntjk.png', canvas.renderAll.bind(canvas));
+    canvas.setOverlayImage('https://res.cloudinary.com/itr/image/upload/v1555868663/fon_qkezpa.png', canvas.renderAll.bind(canvas));
+
+    function check() {
+        var rarr = document.getElementsByName('man');
+        if (rarr[0].checked){
+            canvas.setBackgroundImage('https://res.cloudinary.com/itr/image/upload/v1555868664/white_zkntjk.png', canvas.renderAll.bind(canvas));
+            canvas.setOverlayImage('https://res.cloudinary.com/itr/image/upload/v1555868663/fon_qkezpa.png', canvas.renderAll.bind(canvas));
+        }
+        else {
+            canvas.setBackgroundImage('https://res.cloudinary.com/del5wrr12/image/upload/v1572230069/shirtWoman_yjpuzc.png', canvas.renderAll.bind(canvas));
+            canvas.setOverlayImage('https://res.cloudinary.com/del5wrr12/image/upload/v1572230069/shirtWomanBackground_mt4flk.png', canvas.renderAll.bind(canvas));
+        }
+    }
+
 
 var inp=document.querySelector("#file")
     inp.value="";
@@ -127,7 +157,7 @@ var inp=document.querySelector("#file")
     var theInput = document.getElementById("favcolor");
     tscolor.addEventListener("input", function() {
         var theColor = tscolor.value;
-        var activeObject = canvas.getActiveObject();
+        {#var activeObject = canvas.getActiveObject();#}
         var d=canvas.item(0);
         d.set({
             fill: theColor,
@@ -146,8 +176,28 @@ var inp=document.querySelector("#file")
     }, true);
 
 
+    var b_w = document.getElementById("b_w");
+    b_w.addEventListener("input", function() {
+        var activeObject = canvas.getActiveObject();
+        activeObject.filters.push( new fabric.Image.filters.Grayscale());
+        activeObject.applyFilters();
+        canvas.renderAll();
+    }, true);
+
     function save(){
          document.getElementById('url_pict').value = canvas.toSVG();
+    }
+
+
+
+    function change_man(){
+        canvas.setBackgroundImage('https://res.cloudinary.com/itr/image/upload/v1555868664/white_zkntjk.png', canvas.renderAll.bind(canvas));
+        canvas.setOverlayImage('https://res.cloudinary.com/itr/image/upload/v1555868663/fon_qkezpa.png', canvas.renderAll.bind(canvas));
+    }
+
+    function change_woman() {
+        canvas.setBackgroundImage('', canvas.renderAll.bind(canvas));
+        canvas.setOverlayImage('', canvas.renderAll.bind(canvas));
     }
 </script>
 {% endblock %}

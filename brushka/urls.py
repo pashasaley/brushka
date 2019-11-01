@@ -23,7 +23,8 @@ from private_office.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', ListView.as_view(queryset=TShirts.objects.all().order_by('-id')[:9], template_name='home_page.html')),
+    path('', ListView.as_view(queryset=TShirts.objects.all().order_by('-id')[:9], template_name='home_page.html'),
+         name='home_page_index'),
     path('', include('django.contrib.auth.urls')),
     # path('private_office/', ListView.as_view(queryset=TShirts.objects.filter(username=index),
     #                                          template_name='private_office.html')),
