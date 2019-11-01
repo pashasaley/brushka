@@ -31,7 +31,7 @@
             </form>
               <ul class="navbar-nav ml-auto">
                   {% if user.is_authenticated %}
-                      <li class="nav-item"><a class="nav-link">{{ user.username }}</a></li>
+                      <li class="nav-item"><a class="nav-link" href="{% url 'private_office' %}">{{ user.username }}</a></li>
                       <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}">Logout</a></li>
                   {% else %}
                       <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
