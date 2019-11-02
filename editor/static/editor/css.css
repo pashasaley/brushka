@@ -31,7 +31,7 @@ canvas{
 }
 
 .font700{
-	margin-top: 40px;
+	margin-top: 10px;
 	font-weight: 700;
 }
 
@@ -87,6 +87,9 @@ button:hover{
 	margin-top: 100px;
 }
 
+.input-group2{
+	margin-top: 10px;
+}
 
 input[type="file"] {
     display: none;

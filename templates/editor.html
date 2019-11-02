@@ -26,6 +26,17 @@
                         <input type="text" name="price_t" id="inPrice">
                         <p class="font700">Description:</p>
                         <input type="text" name="description_t" id="inDescription">
+                        <p class="font700">Tags:</p>
+                            <div class="input-group2">
+                                <input type="text" class="form-control" name="tags" id="tags">
+                                <div class="input-group-append">
+                                    <input type="button" id="btn_add_tags" class="btn btn-dark" onclick="add_tags()" value="Add tags">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row" id="div_tags"></div>
+                        </div>
                         <button id="add" onclick="save()" class="font700">Save</button>
                         <input type="hidden" id="url_pict" name="url">
                     </form>
@@ -56,9 +67,10 @@
                         <div class="row">
                             <div class=".col-4 q">
                                 <div class="btn-group btn-group-toggle">
-                                    <input type="button" onclick="" class="btn btn-dark" id="b_w" value="b/w">
-                                    <input type="button" onclick="" class="btn btn-dark" id="sepia" value="sepia">
-                                    <input type="button" onclick="" class="btn btn-dark" id="poster" value="posterization">
+                                    <input type="button" onclick="b_w()" class="btn btn-dark" id="b_w" value="b/w">
+                                    <input type="button" onclick="sepia()" class="btn btn-dark" id="sepia" value="sepia">
+                                    <input type="button" onclick="pixel()" class="btn btn-dark" id="poster" value="pixel">
+                                    <input type="button" onclick="invert()" class="btn btn-dark" id="poster" value="invert">
                                 </div>
                             </div>
                             <div class=".col-3 q">
@@ -108,6 +120,19 @@
         };
         reader.readAsDataURL(file);
     });
+
+    function add_tags(){
+        let string_tags = document.getElementById('tags').value;
+        let div_tag = document.getElementById('div_tags');
+        div_tag.innerText="";
+        let arr_tags = string_tags.split(' ');
+        for (let i=0; i<arr_tags.length; i++){
+            let div = document.createElement("div");
+            div.innerHTML = "<div class=\"mr-2\">#"
+                + arr_tags[i] + "</div>";
+            div_tag.appendChild(div);
+        }
+    }
 
     canvas.setBackgroundImage('https://res.cloudinary.com/itr/image/upload/v1555868664/white_zkntjk.png', canvas.renderAll.bind(canvas));
     canvas.setOverlayImage('https://res.cloudinary.com/itr/image/upload/v1555868663/fon_qkezpa.png', canvas.renderAll.bind(canvas));
@@ -175,14 +200,30 @@ var inp=document.querySelector("#file")
         canvas.renderAll();
     }, true);
 
-
-    var b_w = document.getElementById("b_w");
-    b_w.addEventListener("input", function() {
+    function b_w() {
         var activeObject = canvas.getActiveObject();
-        activeObject.filters.push( new fabric.Image.filters.Grayscale());
+        activeObject.filters.push(new fabric.Image.filters.Grayscale());
         activeObject.applyFilters();
-        canvas.renderAll();
-    }, true);
+    }
+
+    function sepia() {
+        var activeObject = canvas.getActiveObject();
+        activeObject.filters.push(new fabric.Image.filters.Sepia());
+        activeObject.applyFilters();
+    }
+
+    function pixel() {
+        var activeObject = canvas.getActiveObject();
+        activeObject.filters.push(new fabric.Image.filters.Pixelate({blocksize: 8}));
+        activeObject.applyFilters();
+    }
+
+    function invert() {
+        var activeObject = canvas.getActiveObject();
+        activeObject.filters.push(new fabric.Image.filters.Invert());
+        activeObject.applyFilters();
+    }
+
 
     function save(){
          document.getElementById('url_pict').value = canvas.toSVG();
