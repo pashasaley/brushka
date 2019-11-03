@@ -7,3 +7,8 @@ class TShirts(models.Model):
     link_TShirts = models.CharField(max_length=512)
     price = models.IntegerField()
     description = models.TextField()
+
+
+class Tags(models.Model):
+    tag = models.CharField(max_length=64)
+    id_ts = models.ForeignKey(TShirts, on_delete=models.CASCADE)

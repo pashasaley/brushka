@@ -27,13 +27,9 @@
                         <p class="font700">Description:</p>
                         <input type="text" name="description_t" id="inDescription">
                         <p class="font700">Tags:</p>
-                            <div class="input-group2">
-                                <input type="text" class="form-control" name="tags" id="tags">
-                                <div class="input-group-append">
-                                    <input type="button" id="btn_add_tags" class="btn btn-dark" onclick="add_tags()" value="Add tags">
-                                </div>
-                            </div>
-                        </div>
+                        <input type="hidden" name="tags_t" id="tags_str">
+                        <input type="text" name="tags" id="tags">
+                        <input type="button" id="btn_add_tags" class="btn btn-dark" onclick="add_tags()" value="Add tags">
                         <div class="container">
                             <div class="row" id="div_tags"></div>
                         </div>
@@ -124,6 +120,7 @@
     function add_tags(){
         let string_tags = document.getElementById('tags').value;
         let div_tag = document.getElementById('div_tags');
+        document.getElementById('tags_str').value = string_tags;
         div_tag.innerText="";
         let arr_tags = string_tags.split(' ');
         for (let i=0; i<arr_tags.length; i++){

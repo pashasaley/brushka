@@ -17,12 +17,6 @@
       </style>
 </head>
 <body>
-{#{% if form.errors %}#}
-{#    <p>Wrong</p>#}
-{#{% endif %}#}
-{#{% if next %}#}
-{#    <p>HEY</p>#}
-{#{% endif %}#}
     <form class="container" method="post" action="{% url 'login' %}" >
              {% csrf_token %}
         <div class="form-group">

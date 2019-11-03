@@ -15,6 +15,7 @@
         margin-top: 10px;
 }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 {% endblock %}
 
 {% block content %}
@@ -22,16 +23,21 @@
     <div class="row">
 
     {% for post in queryset %}
-        <div class=".col-4 mt-4 sm q">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="{{ post.link_TShirts }}" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">{{ post.name_TShirts }}</h5>
-                <p class="card-text clip">{{ post.description }}</p>
-                <a href="/sales/{{ post.id }}" class="btn btn-primary">View</a>
+        <form method="post">
+        {% csrf_token %}
+            <div class=".col-4 mt-4 sm q">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{ post.link_TShirts }}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ post.name_TShirts }}</h5>
+                        <p class="card-text clip">{{ post.description }}</p>
+                        <a href="/sales/{{ post.id }}" class="btn btn-primary">View</a>
+                        <input type="hidden" name="id" value="{{ post.id }}">
+                        <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                    </div>
+                </div>
             </div>
-        </div>
-</div>
+        </form>
     {% endfor %}
 
     </div>

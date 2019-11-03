@@ -87,10 +87,6 @@ button:hover{
 	margin-top: 100px;
 }
 
-.input-group2{
-	margin-top: 10px;
-}
-
 input[type="file"] {
     display: none;
 }

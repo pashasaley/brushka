@@ -17,17 +17,14 @@ from django.contrib import admin
 from django.urls import path, include
 from register.views import register, activate
 from editor.models import TShirts
-from django.views.generic import ListView
 from private_office.views import index
+from home_page.views import add_tags
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', ListView.as_view(queryset=TShirts.objects.all().order_by('-id')[:9], template_name='home_page.html'),
-         name='home_page_index'),
+    path('', add_tags, name='home_page_index'),
     path('', include('django.contrib.auth.urls')),
-    # path('private_office/', ListView.as_view(queryset=TShirts.objects.filter(username=index),
-    #                                          template_name='private_office.html')),
     path('private_office/', index, name='private_office'),
     path('register/', register, name='register'),
     path('register/activate/', activate, name='activate'),

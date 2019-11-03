@@ -18,10 +18,23 @@
 {% endblock %}
 
 {% block content %}
+    <div class="container mt-4">
+        <div class="row justify-content-md-center">
+            {% for tag in tags %}
+                <form method="post">
+                {% csrf_token %}
+                    <div class=".col-4 sm mr-1 mt-1">
+                        <button class="btn btn-secondary">#{{ tag.tag }}</button>
+                        <input type="hidden" name="tag" value="{{ tag.tag }}">
+                    </div>
+                </form>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
     <div class="container">
     <div class="row">
-
-    {% for post in object_list %}
+    {% for post in queryset %}
         <div class=".col-4 mt-4 sm q">
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="{{ post.link_TShirts }}" alt="Card image cap">
