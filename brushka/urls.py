@@ -16,15 +16,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from register.views import register, activate
-from editor.models import TShirts
 from private_office.views import index
 from home_page.views import add_tags
+from search.views import search
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', add_tags, name='home_page_index'),
     path('', include('django.contrib.auth.urls')),
+    path('search/', search, name='search'),
     path('private_office/', index, name='private_office'),
     path('register/', register, name='register'),
     path('register/activate/', activate, name='activate'),

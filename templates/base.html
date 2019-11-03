@@ -25,9 +25,10 @@
               </li>
           {% endif %}
             </ul>
-            <form class="form-inline my-2 my-lg-0 mx-auto"><span class="sr-only">(current)</span>
-              <input class="form-control mr-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            <form method="post" action="{% url 'search' %}" class="form-inline my-2 my-lg-0 mx-auto"><span class="sr-only">(current)</span>
+                {% csrf_token %}
+              <input class="form-control mr-sm-2" type="text" name="search" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0">Search</button>
             </form>
               <ul class="navbar-nav ml-auto">
                   {% if user.is_authenticated %}
