@@ -48,12 +48,24 @@
 <div class="container">
 
 </div>
-<div class="container">
+<div class="container comment">
     <div class="input-group mb-3">
         <input type="text" class="form-control" id="inputComment">
         <div class="input-group-append">
-            <button id="comment" class="">Button</button>
+            <button id="comment" onclick="add()" class="">Add</button>
         </div>
 </div>
 </div>
+
+
+    <script type="text/javascript">
+    function add(){
+        let user = document.getElementById('username').value;
+        console.log(user);
+        let text_comment = document.getElementById('inputComment').value;
+        console.log(text_comment);
+        $(".comment").prepend("<div class=\"container\"><li>"+user+
+            "</li><li>"+text_comment+"</li></div>")
+    }
+    </script>
 {% endblock %}
