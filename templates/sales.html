@@ -17,6 +17,7 @@
         </div>
         <div class="col-sm">
             <div class="container">
+                <input type="hidden" id="id_ts" value="{{ tshirts.id }}">
                 <h2 id="Tname">{{ tshirts.name_TShirts }}</h2>
                 <p class="text">{{ tshirts.username }}</p>
                 <p id="price">${{ tshirts.price }}</p>
@@ -46,26 +47,98 @@
     </div>
 </div>
 <div class="container">
-
+<hr>
 </div>
-<div class="container comment">
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" id="inputComment">
-        <div class="input-group-append">
-            <button id="comment" onclick="add()" class="">Add</button>
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="container comment">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="inputComment">
+                <div class="input-group-append">
+                    <input type="submit" value="Add comment" id="comment">
+                </div>
+            </div>
         </div>
-</div>
-</div>
+    </form>
+    <div class="container">
+        <div class="col-sm-12 new_comment"></div>
+    </div>
 
 
     <script type="text/javascript">
-    function add(){
-        let user = document.getElementById('username').value;
-        console.log(user);
-        let text_comment = document.getElementById('inputComment').value;
-        console.log(text_comment);
-        $(".comment").prepend("<div class=\"container\"><li>"+user+
-            "</li><li>"+text_comment+"</li></div>")
+    $(document).ready(function () {
+        function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i].trim();
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
     }
+        var csrftoken = getCookie('csrftoken');
+        $('#comment').on('click', function (e) {
+            e.preventDefault();
+            var id_ts = document.getElementById('id_ts').value
+            var inputComment = $('#inputComment').val()
+            var id_user = document.getElementById('id_user').value;
+            data = {
+                id_ts: id_ts,
+                inputComment: inputComment,
+                id_user: id_user,
+                csrfmiddlewaretoken: csrftoken
+            };
+
+            $.ajax({
+                type: "POST",
+                url: "{% url 'add_comment' %}",
+                dataType: 'json',
+                data: data,
+                success: function (data) {
+                    $.each(data, function (field) {
+                        $('.new_comment').prepend('<hr><small>'+data[field]['username']+
+                        '</small><p>'+data[field]['comment']+'</p>')
+                        $('#inputComment').val('')
+                    })
+
+                }
+            })
+        });
+        setInterval(function () {
+            $("div.new_comment").empty();
+            var id_ts = document.getElementById('id_ts').value;
+            var inputComment = $('#inputComment').val();
+            var id_user = document.getElementById('id_user').value;
+            data = {
+                id_ts: id_ts,
+                inputComment: inputComment,
+                id_user: id_user,
+                csrfmiddlewaretoken: csrftoken
+            };
+        $.ajax({
+            type: "GET",
+            url: {% url 'search_comment' %},
+            dataType: 'json',
+            data: data,
+            success: function (data) {
+                items = document.getElementsByName('field');
+
+                $.each(data, function (field){
+                    $('.new_comment').prepend('<hr><small>'+data[field]['username']+
+                        '</small><p>'+data[field]['comment']+'</p>')
+                        $('#inputComment').val('')
+
+                })
+            }
+        })
+    }, 3000);
+    });
+
     </script>
 {% endblock %}

@@ -19,6 +19,7 @@ from register.views import register, activate
 from private_office.views import index
 from home_page.views import add_tags
 from search.views import search
+from sales.views import create_comment, search_comment
 
 
 urlpatterns = [
@@ -30,5 +31,7 @@ urlpatterns = [
     path('register/', register, name='register'),
     path('register/activate/', activate, name='activate'),
     path('editor/', include('editor.urls')),
-    path('sales/', include('sales.urls'))
+    path('sales/', include('sales.urls')),
+    path('add_comment/', create_comment, name='add_comment'),
+    path('search_comment/', search_comment, name='search_comment')
 ]
