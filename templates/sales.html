@@ -46,6 +46,7 @@
         </div>
     </div>
 </div>
+    {% if user.is_authenticated %}
 <div class="container">
 <hr>
 </div>
@@ -61,9 +62,13 @@
         </div>
     </form>
     <div class="container">
-        <div class="col-sm-12 new_comment"></div>
+        <div class="col-sm-12 new_comment">
+            {% for comment in comments %}
+                <hr><small>{{ comment.id_user.username }}</small><p id="{{ comment.id }}">{{ comment.comment }}</p>
+            {% endfor %}
+        </div>
     </div>
-
+{% endif %}
 
     <script type="text/javascript">
     $(document).ready(function () {
@@ -85,8 +90,8 @@
         var csrftoken = getCookie('csrftoken');
         $('#comment').on('click', function (e) {
             e.preventDefault();
-            var id_ts = document.getElementById('id_ts').value
-            var inputComment = $('#inputComment').val()
+            var id_ts = document.getElementById('id_ts').value;
+            var inputComment = $('#inputComment').val();
             var id_user = document.getElementById('id_user').value;
             data = {
                 id_ts: id_ts,
@@ -103,7 +108,7 @@
                 success: function (data) {
                     $.each(data, function (field) {
                         $('.new_comment').prepend('<hr><small>'+data[field]['username']+
-                        '</small><p>'+data[field]['comment']+'</p>')
+                        '</small><p id="' + data[field]['id'] + '">'+data[field]['comment']+'</p>');
                         $('#inputComment').val('')
                     })
 
@@ -111,7 +116,6 @@
             })
         });
         setInterval(function () {
-            $("div.new_comment").empty();
             var id_ts = document.getElementById('id_ts').value;
             var inputComment = $('#inputComment').val();
             var id_user = document.getElementById('id_user').value;
@@ -127,18 +131,22 @@
             dataType: 'json',
             data: data,
             success: function (data) {
-                items = document.getElementsByName('field');
-
                 $.each(data, function (field){
-                    $('.new_comment').prepend('<hr><small>'+data[field]['username']+
-                        '</small><p>'+data[field]['comment']+'</p>')
-                        $('#inputComment').val('')
-
+                    if (document.getElementById(data[field]['id'])){
+                        return true;
+                    }
+                    else {
+                        $('.new_comment').prepend('<hr><small>' + data[field]['username'] +
+                            '</small><p id="' + data[field]['id'] + '">' + data[field]['comment'] + '</p>');
+                    }
                 })
+
             }
+
         })
     }, 3000);
     });
+
 
     </script>
 {% endblock %}

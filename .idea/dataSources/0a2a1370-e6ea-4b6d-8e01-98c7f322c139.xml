@@ -107,8 +107,8 @@
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2019-11-05.16:09:19.260</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1371</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2019-11-07.16:42:12.032</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1414</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -155,9 +155,9 @@
       <Type>index</Type>
     </access-method>
     <sequence id="28" parent="21" name="sales_comments_id_seq">
-      <ObjectId>65828</ObjectId>
+      <ObjectId>65851</ObjectId>
       <Owner>pasha</Owner>
-      <StateNumber>1371</StateNumber>
+      <StateNumber>1414</StateNumber>
       <SequenceIdentity>1..2147483647</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
@@ -328,9 +328,9 @@
       <StateNumber>1071</StateNumber>
     </table>
     <table id="53" parent="21" name="sales_comments">
-      <ObjectId>65830</ObjectId>
+      <ObjectId>65853</ObjectId>
       <Owner>pasha</Owner>
-      <StateNumber>1371</StateNumber>
+      <StateNumber>1414</StateNumber>
     </table>
     <column id="54" parent="40" name="id">
       <Position>1</Position>
@@ -1145,7 +1145,7 @@ model</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1371</StateNumber>
+      <StateNumber>1414</StateNumber>
       <DefaultExpression>nextval(&apos;sales_comments_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
       <SequenceName>sales_comments_id_seq</SequenceName>
@@ -1154,44 +1154,44 @@ model</ColNames>
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1371</StateNumber>
+      <StateNumber>1414</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="177" parent="53" name="id_ts_id">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1371</StateNumber>
+      <StateNumber>1414</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="178" parent="53" name="id_user_id">
       <Position>4</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1371</StateNumber>
+      <StateNumber>1414</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="179" parent="53" name="sales_comments_pkey">
-      <ObjectId>65837</ObjectId>
+      <ObjectId>65860</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="180" parent="53" name="sales_comments_id_ts_id_f11a1683">
-      <ObjectId>65849</ObjectId>
+      <ObjectId>65872</ObjectId>
       <ColNames>id_ts_id</ColNames>
     </index>
     <index id="181" parent="53" name="sales_comments_id_user_id_4587e10b">
-      <ObjectId>65850</ObjectId>
+      <ObjectId>65873</ObjectId>
       <ColNames>id_user_id</ColNames>
     </index>
     <key id="182" parent="53" name="sales_comments_pkey">
-      <ObjectId>65838</ObjectId>
+      <ObjectId>65861</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>sales_comments_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="183" parent="53" name="sales_comments_id_ts_id_f11a1683_fk_editor_tshirts_id">
-      <ObjectId>65839</ObjectId>
+      <ObjectId>65862</ObjectId>
       <Deferrable>1</Deferrable>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ColNames>id_ts_id</ColNames>
@@ -1202,7 +1202,7 @@ model</ColNames>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="184" parent="53" name="sales_comments_id_user_id_4587e10b_fk_auth_user_id">
-      <ObjectId>65844</ObjectId>
+      <ObjectId>65867</ObjectId>
       <Deferrable>1</Deferrable>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ColNames>id_user_id</ColNames>
