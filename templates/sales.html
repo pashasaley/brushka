@@ -42,6 +42,8 @@
                     </div>
                 </div>
                 <button id="add" class="font700">Add to Bag</button>
+                <input type="hidden" id="link" value="{{ tshirts.link_TShirts }}">
+                <a href="javascript:document.location.href=download()" class="btn btn-secondary">Download</a>
             </div>
         </div>
     </div>
@@ -70,6 +72,18 @@
     </div>
 {% endif %}
     <script type="text/javascript">
+    function download(){
+        let link = document.getElementById('link').value;
+        let array = link.split('/');
+        array.splice(6, 0, 'fl_attachment');
+        let name = array.pop();
+        let array_name = name.split('.');
+        array_name.pop();
+        array_name.push('png');
+        array.push(array_name.join('.'));
+        return array.join('/')
+    }
+
     $(document).ready(function () {
         function getCookie(name) {
         var cookieValue = null;

@@ -1,6 +1,7 @@
 from register.models import Users
 from django import forms
 from django.core.exceptions import ValidationError
+from admin_page.models import BlockUser
 
 
 class CustomUserCreationForm(forms.Form):
@@ -37,6 +38,8 @@ class CustomUserCreationForm(forms.Form):
             self.cleaned_data['username'],
             self.cleaned_data['email'],
             self.cleaned_data['password1'],
-            key=key
+            key=key,
         )
+        block_user = BlockUser(id_user=user)
+        block_user.save()
         return user

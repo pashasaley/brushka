@@ -10,8 +10,37 @@
         <h3 class="mt-5">Users:</h3>
         <ul class="list-group list-group-flush">
             {% for user_item in users %}
-                <li class="list-group-item d-flex justify-content-between align-items-center">{{ user_item.username }}
-                    <a href="/editor/?user={{ user_item.id }}" class="btn btn-secondary">Create t-shirts</a></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center"><div class="row"> <a href="/private_office/?user={{ user_item.id }}" >{{ user_item.username }}</a>
+                    {% if user_item.is_staff %}{% if user_item.is_superuser %}<sup><small>admin</small></sup>{% endif %}{% endif %}</div>
+                    <div class="row">
+                        <div class="mr-1"><a href="/editor/?user={{ user_item.id }}" class="btn btn-secondary"><i class="fa fa-plus"></i></a></div>
+                        <form method="post" action="{% url 'delete_user' %}">
+                            {% csrf_token %}
+                            <div class="mr-1">
+                                <input type="hidden" name="id_user_for_delete" value="{{ user_item.id }}">
+                                <button class="btn btn-danger"><i class="fa fa-user-times"></i></button>
+                            </div>
+                        </form>
+                        <form method="post" action="{% url 'create_admin' %}">
+                            {% csrf_token %}
+                            <div class="mr-1">
+                                <input type="hidden" name="id_user_for_create" value="{{ user_item.id }}">
+                                <button class="btn btn-info"><i class="fa fa-black-tie"></i></button>
+                            </div>
+                        </form>
+                        <form method="post" action="{% url 'block_user' %}">
+                            {% csrf_token %}
+                            <div class="mr-1">
+                                <input type="hidden" name="id_user_for_delete" value="{{ user_item.id }}">
+                                {% if user_item.blockuser__block %}
+                                    <button class="btn btn-primary"><i class="fa fa-unlock-alt"></i></button>
+                                {% else %}
+                                    <button class="btn btn-primary"><i class="fa fa-lock"></i></button>
+                                {% endif %}
+                            </div>
+                        </form>
+                        </div>
+                </li>
             {% endfor %}
         </ul>
     </div>

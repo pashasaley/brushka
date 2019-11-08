@@ -20,7 +20,6 @@ from private_office.views import index
 from home_page.views import add_tags
 from search.views import search
 from sales.views import create_comment, search_comment
-from admin_page.views import admin_page
 
 
 urlpatterns = [
@@ -35,5 +34,5 @@ urlpatterns = [
     path('sales/', include('sales.urls')),
     path('add_comment/', create_comment, name='add_comment'),
     path('search_comment/', search_comment, name='search_comment'),
-    path('admin_page/', admin_page, name='admin_page')
+    path('admin_page/', include('admin_page.urls'))
 ]
