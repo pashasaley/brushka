@@ -33,12 +33,16 @@
               <ul class="navbar-nav ml-auto">
                   {% if user.is_authenticated %}
                       <input type="hidden" id="id_user" value="{{ user.id }}">
+                      {% if user.is_staff %}
+                           <li class="nav-item"><a class="nav-link" href="{% url 'admin_page' %}">{{ user.username }}</a></li>
+                      {% else %}
                       <li class="nav-item"><a class="nav-link" href="{% url 'private_office' %}">{{ user.username }}</a></li>
+                      {% endif %}
                       <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}">Logout</a></li>
-                  {% else %}
+                    {% else %}
                       <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
                       <li class="nav-item"><a class="nav-link" href="{% url 'register' %}">Sign In</a></li>
-            {% endif %}
+                    {% endif %}
 
               </ul>
           </div>

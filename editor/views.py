@@ -5,12 +5,20 @@ import secrets
 from django.core.files import File
 from django.shortcuts import render, redirect
 from .models import TShirts, Tags
+from furl import furl
+from django.contrib.auth.models import User
 
 
 def index(request):
     if request.method == 'POST':
+        f = furl(request.get_full_path())
+        id_user = f.args['user']
+        if id_user:
+            user = User.objects.get(id=id_user)
+            username = user.username
+        else:
+            username = request.user.username
         name_TShirts = request.POST['name']
-        username = request.user.username
         string_tags = request.POST['tags_t']
         tags = string_tags.split(' ')
         svg_picture = request.POST['url']
