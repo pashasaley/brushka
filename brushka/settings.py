@@ -22,9 +22,9 @@ AUTHENTICATION_BACKENDS = [
                            ]
 
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.mail.ru'
-EMAIL_HOST_USER = 'pashasaley@mail.ru'
-EMAIL_HOST_PASSWORD = 'futyn007'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'pashasaley@gmail.com'
+EMAIL_HOST_PASSWORD = 'Futyn_007'
 EMAIL_PORT = 587
 EMAIL_USE_SSL = False
 
@@ -142,7 +142,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'

@@ -19,7 +19,7 @@ def register(request):
             my_email = settings.EMAIL_HOST_USER
             to_list = [mail]
 
-            send_mail(subject, message, my_email, to_list, fail_silently=True)
+            send_mail(subject, message, my_email, to_list, fail_silently=False)
 
             return redirect('home_page_index')
 

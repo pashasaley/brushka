@@ -5,7 +5,6 @@ from .models import BlockUser
 
 def admin_page(request):
     users = User.objects.values('username', 'id', 'is_superuser', 'is_staff', 'blockuser__block')
-    # users = User.objects.all()
     return render(request, 'admin_page.html', {'users': users})
 
 

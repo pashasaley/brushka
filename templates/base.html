@@ -24,10 +24,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'editor_index' %}">T-shirt editor</a>
               </li>
+          {% else %}
+              <div class="col-2 mx-5"></div>
           {% endif %}
             </ul>
-            <form method="post" action="{% url 'search' %}" class="form-inline my-2 my-lg-0 mx-auto"><span class="sr-only">(current)</span>
+                 <form method="post" action="{% url 'search' %}" class="form-inline my-2 my-lg-0 mx-auto">
+           <span class="sr-only">(current)</span>
                 {% csrf_token %}
+
               <input class="form-control mr-sm-2" type="text" name="search" placeholder="Search">
               <button class="btn btn-secondary my-2 my-sm-0">Search</button>
             </form>
@@ -44,7 +48,6 @@
                       <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
                       <li class="nav-item"><a class="nav-link" href="{% url 'register' %}">Sign In</a></li>
                     {% endif %}
-
               </ul>
           </div>
         </nav>

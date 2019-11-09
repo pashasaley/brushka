@@ -41,13 +41,62 @@
                         </div>
                     </div>
                 </div>
-                <button id="add" class="font700">Add to Bag</button>
+            <div class="container">
+            <div class="row mt-3">
+                {% if user.is_authenticated %}
+                    <form method="post">
+                        {% csrf_token %}
+                        <button type="button" onclick="buy()" class="btn btn-dark">Add to Bag</button>
+                    </form>
+                {% else %}
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Add to Bag</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Input data</h5>
+                  </div>
+                  <div class="modal-body">
+                    <form method="post" class="needs-validation" novalidate>
+                        {% csrf_token %}
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Name:</label>
+                        <input type="text" class="form-control" id="form_name" required>
+                          <div class="invalid-feedback">
+                            Please choose an username.
+                        </div>
+                      </div>
+                        <div class="form-group">
+                        <label for="message-text" class="col-form-label">Email:</label>
+                        <input type="email" onchange="buy()" class="form-control" id="form_email" required>
+                            <div class="invalid-feedback">
+                                Please choose an email.
+                            </div>
+                      </div>
+
+                        <input type="hidden"  name="email_user" id="email">
+                        <input type="hidden" name="name_user" id="name">
+
+                    <div class="modal-footer">
+{#                        <input type="button" onclick="buy()" class="btn btn-primary" value="Send">#}
+                        <input type="submit" onclick="buy()" class="btn btn-primary" value="Send">
+                    </div>
+                        </form>
+                    </div>
+              </div>
+            </div>
+        </div>
+            {% endif %}
+                <input type="hidden" id="user_for_buy" value="{{ user.is_authenticate }}">
                 <input type="hidden" id="link" value="{{ tshirts.link_TShirts }}">
-                <a href="javascript:document.location.href=download()" class="btn btn-secondary">Download</a>
+                <a href="javascript:document.location.href=download()" class="btn btn-secondary mx-1">Download</a>
+            </div>
+            </div>
             </div>
         </div>
     </div>
 </div>
+
     {% if user.is_authenticated %}
 <div class="container">
 <hr>
@@ -63,6 +112,7 @@
             </div>
         </div>
     </form>
+        {% endif %}
     <div class="container">
         <div class="col-sm-12 new_comment">
             {% for comment in comments %}
@@ -70,8 +120,39 @@
             {% endfor %}
         </div>
     </div>
-{% endif %}
+
     <script type="text/javascript">
+    (function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+
+    $('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget);
+});
+    function buy() {
+        console.log("//////////");
+        let name = document.getElementById('form_name').value;
+        let email = document.getElementById('form_email').value;
+        document.getElementById('name').value = name;
+        document.getElementById('email').value = email;
+        console.log(name + email);
+        console.log("//////////");
+    }
+
     function download(){
         let link = document.getElementById('link').value;
         let array = link.split('/');
@@ -122,6 +203,8 @@
                         $('.new_comment').prepend('<hr><small>'+data[field]['username']+
                         '</small><p id="' + data[field]['id'] + '">'+data[field]['comment']+'</p>');
                         $('#inputComment').val('')
+
+
                     })
 
                 }
@@ -130,11 +213,9 @@
         setInterval(function () {
             var id_ts = document.getElementById('id_ts').value;
             var inputComment = $('#inputComment').val();
-            var id_user = document.getElementById('id_user').value;
             data = {
                 id_ts: id_ts,
                 inputComment: inputComment,
-                id_user: id_user,
                 csrfmiddlewaretoken: csrftoken
             };
         $.ajax({

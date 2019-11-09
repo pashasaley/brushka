@@ -1,14 +1,34 @@
 from django.http import JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from sales.models import Comments
 from django.contrib.auth.models import User
 from editor.models import TShirts
+from django.core.mail import send_mail
+from django.conf import settings
 
 
 def index(request, pk):
-    tshirts = TShirts.objects.get(id=pk)
-    comments = Comments.objects.filter(id_ts=pk).order_by('-id')
-    return render(request, 'sales.html', {'comments': comments, 'tshirts': tshirts})
+    if request.method == 'POST':
+        name = request.user.username
+        user = request.user
+        if name == '':
+            name_user = request.POST.get('name_user')
+            email_user = request.POST.get('email_user')
+        else:
+            email_user = user.email
+            name_user = name
+        price = TShirts.objects.get(id=pk).price
+        subject = 'Mailing on brushka.ru'
+        my_email = settings.EMAIL_HOST_USER
+        to_list = [email_user]
+        message = 'Hello,' + name_user + '!\nYou buy tshirts. Price: ' + str(price) + '$.\nLink T-Shirt: '\
+                  + TShirts.objects.get(id=pk).link_TShirts + '\nThank you!'
+        send_mail(subject, message, my_email, to_list, fail_silently=True)
+        return redirect('home_page_index')
+    else:
+        tshirts = TShirts.objects.get(id=pk)
+        comments = Comments.objects.filter(id_ts=pk).order_by('-id')
+        return render(request, 'sales.html', {'comments': comments, 'tshirts': tshirts})
 
 
 def create_comment(request):
