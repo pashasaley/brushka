@@ -21,27 +21,31 @@
                     <form method="post">
                         {% csrf_token %}
                         <h2 id="Tname">T-Shirts name:</h2>
-                        <input type="text" name="name" id="inName">
+                        <input type="text" name="name" id="inName" class="form-control" required>
                         <p id="price">Price:</p>
-                        <input type="text" name="price_t" id="inPrice">
+                        <input type="number" name="price_t" id="inPrice" class="form-control" required>
                         <p class="font700">Description:</p>
-                        <input type="text" name="description_t" id="inDescription">
+                        <input type="text" name="description_t" class="form-control" required>
                         <p class="font700">Tags:</p>
-                        <input type="hidden" name="tags_t" id="tags_str">
-                        <input type="text" name="tags" id="tags">
-                        <input type="button" id="btn_add_tags" class="btn btn-dark" onclick="add_tags()" value="Add tags">
-                        <div class="container">
-                            <div class="row" id="div_tags"></div>
-                        </div>
-                        <button id="add" onclick="save()" class="font700">Save</button>
-                        <input type="hidden" id="url_pict" name="url">
+                            <input type="hidden" name="tags_t" id="tags_str">
+                            <div class="input-group mb-3 mt-0">
+                                <input type="text" class="form-control" id="tags">
+                                <div class="input-group-append">
+                                    <input type="button" onclick="add_tags()" class="btn btn-dark" value="Add tags">
+                                </div>
+                            </div>
+                                <div class="container">
+                                    <div class="row" id="div_tags"></div>
+                                </div>
+                            <input type="submit" onclick="save()" class="btn btn-dark" value="Save">
+                            <input type="hidden" id="url_pict" name="url">
                     </form>
                     <hr id="line">
                     <div class="container">
                         <div class="row">
                             <div class=".col-3 q">
                                 <label class="custom-file-upload">
-                                    <input type="file" id="file" />
+                                    <input type="file" id="file"/>
                                     <i class="fa fa-cloud-upload"></i>Upload File
                                 </label>
                             </div>
@@ -125,7 +129,7 @@
         let arr_tags = string_tags.split(' ');
         for (let i=0; i<arr_tags.length; i++){
             let div = document.createElement("div");
-            div.innerHTML = "<div class=\"mr-2\">#"
+            div.innerHTML = "<div class=\"mr-2 mb-2\">#"
                 + arr_tags[i] + "</div>";
             div_tag.appendChild(div);
         }

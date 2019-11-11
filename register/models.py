@@ -2,6 +2,7 @@ from django.dispatch import receiver
 from django.db.models.signals import pre_save
 from django.db import models as models
 from django.contrib.auth import models as mod
+from furl import furl
 
 
 def get_id(name):
@@ -21,3 +22,8 @@ def set_new_user_inactive(sender, instance, **kwargs):
         instance.is_active = False
     else:
         print("Updating User Record")
+
+
+def parse_url(path, key):
+    f = furl(path)
+    return f.args[key]

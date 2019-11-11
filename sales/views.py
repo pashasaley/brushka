@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from sales.models import Comments
 from django.contrib.auth.models import User
-from editor.models import TShirts
+from editor.models import TShirts, Tags
 from django.core.mail import send_mail
 from django.conf import settings
 
@@ -26,9 +26,10 @@ def index(request, pk):
         send_mail(subject, message, my_email, to_list, fail_silently=True)
         return redirect('home_page_index')
     else:
+        tags = Tags.objects.filter(id_ts=pk)
         tshirts = TShirts.objects.get(id=pk)
         comments = Comments.objects.filter(id_ts=pk).order_by('-id')
-        return render(request, 'sales.html', {'comments': comments, 'tshirts': tshirts})
+        return render(request, 'sales.html', {'comments': comments, 'tshirts': tshirts, 'tags': tags})
 
 
 def create_comment(request):

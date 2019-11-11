@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block title %}T-shirts editor{% endblock %}
+
+{% block style %}
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css?family=Almarai:700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'editor/css.css' %}" type="text/css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.4.0/fabric.min.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="container marginT50">
+        <div class="row">
+            <div class="col-sm">
+              <img src="{{ tshirts.link_TShirts }}">
+            </div>
+            <div class="col-sm">
+                <div class="container">
+                    <form method="post">
+                        {% csrf_token %}
+                        <h2 id="Tname">T-Shirts name:</h2>
+                        <input type="text" name="name" id="inName" class="form-control" value="{{ tshirts.name_TShirts }}" required>
+                        <p id="price">Price:</p>
+                        <input type="number" name="price_t" id="inPrice" class="form-control" value="{{ tshirts.price }}" required>
+                        <p class="font700">Description:</p>
+                        <input type="text" name="description_t" class="form-control" value="{{ tshirts.description }}" required>
+                        <p class="font700">Tags:</p>
+                            <input type="hidden" name="tags_t" id="tags_str">
+                            <div class="input-group mb-3 mt-0">
+                                <input type="text" class="form-control" id="tags">
+                                <div class="input-group-append">
+                                    <input type="button" onclick="add_tags()" class="btn btn-dark" value="Add tags">
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row" id="div_tags">
+                                {% for tag in tags %}
+                                    <div class="mr-2 mb-2">#{{ tag.tag }}</div>
+                                {% endfor %}
+                                </div>
+                            </div>
+                            <input type="submit" onclick="save()" class="btn btn-dark" value="Save">
+                            <input type="hidden" id="url_pict" name="url">
+                    </form>
+                </div>
+            </div>
+        </div>
+</div>
+
+    <script type="text/javascript">
+        function add_tags(){
+        let string_tags = document.getElementById('tags').value;
+        let div_tag = document.getElementById('div_tags');
+        document.getElementById('tags_str').value = string_tags;
+        div_tag.innerText="";
+        let arr_tags = string_tags.split(' ');
+        for (let i=0; i<arr_tags.length; i++){
+            let div = document.createElement("div");
+            div.innerHTML = "<div class=\"mr-2 mb-2\">#"
+                + arr_tags[i] + "</div>";
+            div_tag.appendChild(div);
+        }
+    }
+    </script>
+{% endblock %}

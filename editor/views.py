@@ -1,44 +1,33 @@
-import cloudinary.api
-import cloudinary
-import cloudinary.uploader
-import secrets
-from django.core.files import File
 from django.shortcuts import render, redirect
-from .models import TShirts, Tags
+from .models import sending_picture, save_t_shirts, save_tags, get_username
 from furl import furl
-from django.contrib.auth.models import User
 
 
 def index(request):
     if request.method == 'POST':
-        f = furl(request.get_full_path())
-        id_user = f.args['user']
-        if id_user:
-            user = User.objects.get(id=id_user)
-            username = user.username
-        else:
+        data = get_data_t_shirts(request)
+        f = furl(data['path'])
+        if data['path'] == '/editor/':
             username = request.user.username
-        name_TShirts = request.POST['name']
-        string_tags = request.POST['tags_t']
-        tags = string_tags.split(' ')
-        svg_picture = request.POST['url']
-        price = int(request.POST.get('price_t', False))
-        description = request.POST.get('description_t', False)
-        x = secrets.token_hex(6)
-        f = open('d:/image_tshirts/' + x + '.svg', 'w')
-        my_file = File(f)
-        my_file.write(svg_picture)
-        my_file.close()
-        y = cloudinary.uploader.upload_image('d:/image_tshirts/' + x + '.svg')
-        y = str(y)
-        link_TShirts = 'https://res.cloudinary.com/danzp4kma/image/upload/v1572271002/' + y + '.jpeg'
-        tshirt = TShirts(name_TShirts=name_TShirts, username=username,
-                         link_TShirts=link_TShirts, price=price, description=description)
-        tshirt.save()
-        for tag in tags:
-            tags_ts = Tags(tag=tag, id_ts=tshirt)
-            tags_ts.save()
+        else:
+            username = get_username(f.args['user'])
+        tags = data['string_tags'].split(' ')
+        y = str(sending_picture(data['svg_picture']))
+        t_shirt = save_t_shirts(data['name_t_shirts'], username, y, data['price'], data['description'])
+        if tags[0] != '':
+            save_tags(tags, t_shirt)
         return redirect('editor_index')
     else:
         return render(request, 'editor.html')
 
+
+def get_data_t_shirts(request):
+    name_t_shirts = request.POST['name']
+    string_tags = request.POST['tags_t']
+    svg_picture = request.POST['url']
+    price = int(request.POST.get('price_t', False))
+    description = request.POST.get('description_t', False)
+    path = request.get_full_path()
+    data = {'name_t_shirts': name_t_shirts, 'string_tags': string_tags, 'svg_picture': svg_picture,
+            'price': price, 'description': description, 'path': path}
+    return data

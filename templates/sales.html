@@ -23,6 +23,15 @@
                 <p id="price">${{ tshirts.price }}</p>
                 <p class="font700">Description</p>
                 <p class="text">{{ tshirts.description }}</p>
+                <p class="font700">Tags</p>
+                <input type="hidden" name="tags_t" id="tags_str">
+                <div class="container">
+                <div class="row">
+                    {% for tag in tags %}
+                        <p class="text mr-1">#{{ tag.tag }}</p>
+                    {% endfor %}
+                </div>
+                </div>
                 <hr id="line">
                 <p class="font700">size</p>
                 <div class="container">
@@ -46,7 +55,7 @@
                 {% if user.is_authenticated %}
                     <form method="post">
                         {% csrf_token %}
-                        <button type="button" onclick="buy()" class="btn btn-dark">Add to Bag</button>
+                        <button type="submit" class="btn btn-dark">Add to Bag</button>
                     </form>
                 {% else %}
                     <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Add to Bag</button>
@@ -151,6 +160,7 @@
         document.getElementById('email').value = email;
         console.log(name + email);
         console.log("//////////");
+        alert("save")
     }
 
     function download(){

@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
-from .models import BlockUser
+from .models import BlockUser, get_user
 
 
 def admin_page(request):
@@ -10,14 +10,14 @@ def admin_page(request):
 
 def delete_user(request):
     id_user = request.POST['id_user_for_delete']
-    user = User.objects.get(id=id_user)
+    user = get_user(id_user)
     user.delete()
     return redirect('admin_page')
 
 
 def create_admin(request):
     id_user = request.POST['id_user_for_create']
-    user = User.objects.get(id=id_user)
+    user = get_user(id_user)
     if user.is_staff:
         if user.is_superuser:
             user.is_staff = False

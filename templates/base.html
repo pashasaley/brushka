@@ -32,7 +32,7 @@
            <span class="sr-only">(current)</span>
                 {% csrf_token %}
 
-              <input class="form-control mr-sm-2" type="text" name="search" placeholder="Search">
+              <input class="form-control mr-sm-2" minlength="1" type="text" name="search" placeholder="Search" required>
               <button class="btn btn-secondary my-2 my-sm-0">Search</button>
             </form>
               <ul class="navbar-nav ml-auto">
