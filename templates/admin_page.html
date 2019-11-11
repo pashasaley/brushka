@@ -6,6 +6,7 @@
 {% endblock %}
 
 {% block content %}
+    {% if user.is_staff %}
     <div class="container">
         <h3 class="mt-5">Users:</h3>
         <ul class="list-group list-group-flush">
@@ -44,4 +45,5 @@
             {% endfor %}
         </ul>
     </div>
+    {% endif %}
 {% endblock %}

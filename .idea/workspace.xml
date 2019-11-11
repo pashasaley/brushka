@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d0d8fb-62f7-407a-b9fd-5cb7bb079123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/private_office/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139/storage_v2/_src_/database/brushka.EL5RCQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0a2a1370-e6ea-4b6d-8e01-98c7f322c139/storage_v2/_src_/database/brushka.EL5RCQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_page/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_page/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_page/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_page/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_page/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brushka/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/brushka/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/editor/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/editor/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home_page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_page/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private_office/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_office/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/templates/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sales/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sales/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sales/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sales/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sales/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sales/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/editor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/private_office.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/private_office.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sales.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin_page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +63,16 @@
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="brushka@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="brushka: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="admin_page_blockuser: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+      </path>
     </expand>
     <select />
   </component>
@@ -112,18 +99,18 @@
           <entry key="Django Console" value="40" />
           <entry key="cell" value="29" />
           <entry key="css" value="39" />
-          <entry key="html" value="9608" />
-          <entry key="py" value="14377" />
+          <entry key="html" value="9629" />
+          <entry key="py" value="14472" />
           <entry key="sql" value="5" />
-          <entry key="txt" value="203" />
+          <entry key="txt" value="206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="39" />
-          <entry key="HTML" value="9608" />
-          <entry key="PLAIN_TEXT" value="203" />
-          <entry key="Python" value="14417" />
+          <entry key="HTML" value="9629" />
+          <entry key="PLAIN_TEXT" value="206" />
+          <entry key="Python" value="14512" />
           <entry key="Scratch" value="34" />
         </counts>
       </usages-collector>
@@ -140,10 +127,10 @@
           <entry key="django_session" value="2" />
           <entry key="editor_tags" value="10" />
           <entry key="editor_tshirts" value="11" />
-          <entry key="html" value="89" />
+          <entry key="html" value="92" />
           <entry key="js" value="1" />
           <entry key="public" value="6" />
-          <entry key="py" value="223" />
+          <entry key="py" value="224" />
           <entry key="register_myuser" value="1" />
           <entry key="register_user" value="4" />
           <entry key="register_users" value="15" />
@@ -156,9 +143,9 @@
         <counts>
           <entry key="CSS" value="16" />
           <entry key="Database Element" value="106" />
-          <entry key="HTML" value="89" />
+          <entry key="HTML" value="92" />
           <entry key="JavaScript" value="1" />
-          <entry key="Python" value="223" />
+          <entry key="Python" value="224" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="4" />
           <entry key="UML" value="6" />
@@ -189,11 +176,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sales.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="493">
               <caret line="162" column="19" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home_page/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1573484228822" expanded="true" signature="596:605" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -254,8 +281,6 @@
         <option value="$PROJECT_DIR$/admin_page/usrls.py" />
         <option value="$PROJECT_DIR$/admin_page/urls.py" />
         <option value="$PROJECT_DIR$/register/forms.py" />
-        <option value="$PROJECT_DIR$/templates/admin_page.html" />
-        <option value="$PROJECT_DIR$/templates/home_page.html" />
         <option value="$PROJECT_DIR$/sales/urls.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0a2a1370-e6ea-4b6d-8e01-98c7f322c139/console.sql" />
         <option value="$PROJECT_DIR$/brushka/settings.py" />
@@ -269,7 +294,6 @@
         <option value="$PROJECT_DIR$/register/models.py" />
         <option value="$PROJECT_DIR$/register/views.py" />
         <option value="$PROJECT_DIR$/editor/models.py" />
-        <option value="$PROJECT_DIR$/home_page/views.py" />
         <option value="$PROJECT_DIR$/sales/views.py" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/register/templates/register/register.html" />
@@ -281,6 +305,9 @@
         <option value="$PROJECT_DIR$/templates/edit.html" />
         <option value="$PROJECT_DIR$/templates/editor.html" />
         <option value="$PROJECT_DIR$/templates/sales.html" />
+        <option value="$PROJECT_DIR$/templates/admin_page.html" />
+        <option value="$PROJECT_DIR$/templates/home_page.html" />
+        <option value="$PROJECT_DIR$/home_page/views.py" />
       </list>
     </option>
   </component>
@@ -333,6 +360,11 @@
               <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
               <item name="brushka" type="462c0819:PsiDirectoryNode" />
               <item name="editor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brushka" type="462c0819:PsiDirectoryNode" />
+              <item name="home_page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="brushka" type="b2602c69:ProjectViewProjectNode" />
@@ -526,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573343656433</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added editing created t-shirts.">
+      <created>1573477156278</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573477156278</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -539,7 +578,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14447807" />
@@ -613,7 +652,8 @@
     <MESSAGE value="Create T-shirts on behalf of the user." />
     <MESSAGE value="Admin page." />
     <MESSAGE value="Add buying." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add buying." />
+    <MESSAGE value="Added editing created t-shirts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added editing created t-shirts." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/user_info/urls.py">
@@ -636,13 +676,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="158" selection-start-line="12" selection-start-column="158" selection-end-line="12" selection-end-column="158" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -778,17 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home_page/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1573423983713" expanded="true" signature="351:360" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home_page/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -836,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="214" lean-forward="true" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -886,13 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="32" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -994,8 +1002,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sales.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="493">
           <caret line="162" column="19" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_page/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1573484228822" expanded="true" signature="596:605" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
